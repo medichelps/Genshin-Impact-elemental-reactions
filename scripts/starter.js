@@ -24,7 +24,7 @@ function displayElement(){
     else if (elementInitial == "Hydro" && elementApplied == "Pyro"){
         finalOutput="Reverse Vaporize - 1.5x damage multiplier"
     }
-    else if (elementInitial !="Geo" && elementApplied == "Geo" || elementApplied != "Geo" && elementInitial=="Geo"){
+    else if (elementInitial !="Geo" && elementInitial !="Anemo" && elementApplied == "Geo" || elementApplied != "Geo" && elementApplied!="Geo" && elementInitial=="Geo"){
         finalOutput="Crystallize - Generates a shield crystal"
     }
     else if (elementInitial == "Electro" && elementApplied == "Pyro" || elementInitial =="Pyro" && elementApplied =="Electro"){
