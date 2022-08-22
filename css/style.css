@@ -1,0 +1,13 @@
+.element{
+    width: 100px;
+    height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+
+.reactions{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
