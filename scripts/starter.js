@@ -12,7 +12,7 @@ function displayElement(){
     else if (elementInitial == elementApplied){
         finalOutput="No reaction"
     }
-    else if (elementApplied == "Anemo" && elementInitial!="Anemo"  || elementApplied != "Anemo" && elementInitial=="Anemo" && elementApplied != "Geo"){
+    else if (elementApplied == "Anemo" && elementInitial!="Anemo" && elementInitial!= "Geo"  || elementApplied != "Anemo" && elementInitial=="Anemo" && elementApplied != "Geo"){
         finalOutput="Swirl - Additional damage dealt depending on Elemental Mastery and Character Level"
     } 
     else if (elementInitial == "Cryo" && elementApplied == "Pyro"){
@@ -42,7 +42,7 @@ function displayElement(){
         finalOutput="Freeze"
     }
     else{
-        finalOutput="no worky"
+        finalOutput="No reaction"
     }
 
 
