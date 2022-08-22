@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="scripts/starter.js"></script>
+</head>
+
+<body>   
+
+<div class="reactions">
+<h1>Elemental reactions</h1>
+
+<form action="scripts/starter.js" method="GET">
+    <label for="firstElement">Select the first element</label>
+    
+<select id="firstElement" name="firstElement">
+    <option value="Pyro">Pyro</option>
+    <option value="Hydro">Hydro</option>
+    <option value="Electro">Electro</option>
+    <option value="Cryo">Cryo</option>
+    <option value="Anemo">Anemo</option>
+    <option value="Geo">Geo</option>
+</select>
+<br><br>
+
+<label for="secondElement">Select the element applied to the first element</label>
+<select id="secondElement" name="secondElement">
+    <option value="Pyro">Pyro</option>
+    <option value="Hydro">Hydro</option>
+    <option value="Electro">Electro</option>
+    <option value="Cryo">Cryo</option>
+    <option value="Anemo">Anemo</option>
+    <option value="Geo">Geo</option>
+</select>
+
+<button type = "button" onclick="displayElement()">Check</button>
+
+</form>
+
+<p id="reaction"> </p>
+
+</div>
+    
+</body>
+</html>
